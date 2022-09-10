@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
-*main - main block
+*main - print many sizeof var types
+*
+*Description: using main function
+*this program prints many sizeof var types
 *Return: 0
 */
  int main(void)
