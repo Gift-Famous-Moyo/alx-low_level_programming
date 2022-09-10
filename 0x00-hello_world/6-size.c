@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 *main - print many sizeof var types
 *
