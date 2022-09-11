@@ -6,8 +6,7 @@
 *this program prints many sizeof var types
 *Return: 0
 */
-
- int main(void)
+int main(void)
 {
 char c;
 int i;
