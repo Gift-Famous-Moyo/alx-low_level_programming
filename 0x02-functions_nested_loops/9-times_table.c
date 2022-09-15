@@ -3,7 +3,7 @@
 /**
  *times_table - Prits the 9 times table starting with 0.
  */
-void tiems_table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
