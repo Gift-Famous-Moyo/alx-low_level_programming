@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
  *jack_bauer - The function that prints every minute of the day.
- *n starting from 00:00 to 23:59, min loop counts min, while hour loop count hours
+ *n from 00:00 to 23:59, min loop counts min, while hour loop count hours
  *and resets mins
  *Return: 0
  */
