@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  *jack_bauer - The function that prints every minute of the day.
  *from 00:00 to 23:59, min loop counts min, while hour loop count hours
  *and resets mins
  *Return: 0
  */
-void jack_bauer(void)
+void jack_bauer(void);
 {
 	int hours = 0;
 	int minutes = 0;
