@@ -1,1 +1,1 @@
-The function that tests positive or negative
+Testing postive or negative
