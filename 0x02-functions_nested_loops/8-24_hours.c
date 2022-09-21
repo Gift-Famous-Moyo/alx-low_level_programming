@@ -4,6 +4,7 @@
  * from 00:00 to 23:59
  * Return: 0
  */
+
 void jack_bauer(void)
 {
 	int hours  = 0;
@@ -23,7 +24,7 @@ void jack_bauer(void)
 	_putchar(minutes / 10 + '0');
 	_putchar(mins_remainder + '0');
 	minutes++;
-	_putchar('\n\);
+	_putchar('\n');
 	}
 	hours++;
 	minutes = 0;
