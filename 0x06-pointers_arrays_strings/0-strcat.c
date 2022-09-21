@@ -1,16 +1,26 @@
 #include "main.h"
+#include <string.h>
+
 /**
- * _isupper - checks if a  character is uppercase or not
- * @c: character to be tested
- * Return: 1 whether it is, 0 otherwise
+ * _strcat - appends src string to dest string
+ * overwriting the terminating null byte of dest and adds a new null byte
+ * @dest: pointer to the first string
+ * @src: pointer to the 2nd string
+ *
+ * Return: a pointer to the resulting string dest
  */
 
-int _isupper(int c)
+char *_strcat(char *dest, char *src)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	int dest_len = strlen(dest);
+	int i;
+
+	for (i = 0 ; src[i] != '\0' ; i++)
 	{
-		return (1);
+		dest[dest_len + i] = src[i];
 	}
 
-	return (0);
+	dest[dest_len + i] = '\0';
+
+	return (dest);
 }
