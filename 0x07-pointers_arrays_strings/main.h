@@ -8,7 +8,7 @@
 
 int _putchar(cahr);
 char *_memset(char *s, char *b, unsigned int n);
-char *_memopy(char *dest, char *arc, unsigned int n);
+char *_memcpy(char *dest, char *arc, unsigned int n);
 char *_strchr(char *s, char *c);
 unsigned int _strapn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
