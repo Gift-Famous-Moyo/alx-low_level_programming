@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**_strspn - gets lengthof a prefix substring
- * @s: string to to be used to check
- * @accept: string to be used to check against
+ * @s: string to check
+ * @accept: string to check against
  *
  * Return: number of bytes of s in accept
  */
