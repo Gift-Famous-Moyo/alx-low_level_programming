@@ -11,12 +11,12 @@
 
 int main(int argc, char *argv[])
 {
-	/*Declaring variables*/
 	int count = 0;
 
-	if (argc > 0)
+	while (argc--)
 	{
-		/*WHILE - Print each arguments*/
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
+		printf("%s\n", argv[count]);
+		count++;
+	}
+	exit(EXIT_SUCCESS);
+}
