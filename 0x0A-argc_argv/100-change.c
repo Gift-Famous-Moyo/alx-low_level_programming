@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void isnegative(int);
 /**
  * main - print minimum number of coin needed to change money
  * @argc: number of command line parameters passed
